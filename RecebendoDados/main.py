@@ -25,10 +25,10 @@ nome = input()
 
 # MAIS COMUMENTE UTILIZADO
 nome = input("Qual o seu nome? ")
-print(f'Seja bem-vindo(a) {nome}')
+    print(f'Seja bem-vindo(a) {nome}')
 
 # O int utilizado após o nome da variável é para converter a String para o tipo inteiro e assim,
 # podemos utilizar o dado armazenado na idade para futuros cálculos.
 idade = int(input("Qual a sua idade? "))
-print(f'A {nome} tem {idade} anos')
-print(f'A {nome} nasceu em {2022 - idade}')
+    print(f'A {nome} tem {idade} anos')
+    print(f'A {nome} nasceu em {2022 - idade}')
